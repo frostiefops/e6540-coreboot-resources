@@ -1,0 +1,23 @@
+frostie@fopsfopsfopsfops coreboot $ sudo flashrom -p internal -r vendor.rom
+flashrom v1.5.1 (git:v1.5.1) on Linux 6.13.2-artix1-1 (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Found chipset "Intel QM87".
+This chipset is marked as untested. If you are using an up-to-date version
+of flashrom *and* were (not) able to successfully update your firmware with it,
+then please email a report to flashrom@flashrom.org including a verbose (-V) log.
+Thank you!
+Enabling flash write... SPI Configuration is locked down.
+The Flash Descriptor Override Strap-Pin is set. Restrictions implied by
+the Master Section of the flash descriptor are NOT in effect. Please note
+that Protected Range (PR) restrictions still apply.
+FREG0: Flash Descriptor region (0x00000000-0x00000fff) is read-write.
+FREG1: BIOS region (0x00600000-0x00bfffff) is read-write.
+FREG2: Management Engine region (0x00005000-0x005fffff) is read-write.
+FREG3: Gigabit Ethernet region (0x00001000-0x00004fff) is read-write.
+Enabling hardware sequencing due to multiple flash chips detected.
+OK.
+Multiple flash components detected, skipping flash identification.
+Found Programmer flash chip "Opaque flash chip" (12288 kB, Programmer-specific) on internal.
+Reading flash... done.
+

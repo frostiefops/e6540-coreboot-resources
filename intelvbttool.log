@@ -1,0 +1,3 @@
+frostie@fopsfopsfopsfops intelvbttool $ sudo ./intelvbttool --inlegacy --outvbt data.vbt
+VBTTOOL: ERR: bad oprom signature: 0xffff
+VBTTOOL: ERR: Invalid input file

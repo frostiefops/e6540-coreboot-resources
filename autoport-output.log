@@ -1,0 +1,22 @@
+frostie@fopsfopsfopsfops autoport $ sudo ./autoport --input_log=logs --make_logs --coreboot_dir=../..
+Should autoport use sudo to run the commands to make the logs? This is recommended over running autoport as root, since the generated files won't be owned by root. If running as root already because sudo isn't available, choose 'no'. Otherwise, run autoport as a regular (non-root) user and choose 'yes'.. (y/yes/n/no) Default:y
+y
+WARNING: Running inteltool MAY cause your system to hang when it attempts to probe for graphics registers.  Having the graphics registers will help create a better port. Should autoport probe these registers?.
+(y/yes/n/no) Default:y
+y
+Making logs...
+Running: lspci -nnvvvxxxx
+Running: dmidecode
+Running: acpidump
+Running: inteltool -af
+Running: ectool -pd
+Running: superiotool -ade
+PCH sound card is card1
+Unsupported PCI device 8086:0c01
+Unsupported PCI device 8086:153a
+Unsupported PCI device 8086:282a
+Unknown PCI device 1002:6606, assuming removable
+Unknown PCI device 8086:422b, assuming removable
+Unknown PCI device 1217:8520, assuming removable
+Done! Generated sources are in /home/frostie/Clone/coreboot/src/mainboard/dell/latitude_e6540
+

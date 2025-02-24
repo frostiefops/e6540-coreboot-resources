@@ -1,0 +1,18 @@
+-[0000:00]-+-00.0  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller [8086:0c04]
+           +-01.0-[01]----00.0  Advanced Micro Devices, Inc. [AMD/ATI] Mars XTX [Radeon HD 8790M] [1002:6606]
+           +-02.0  Intel Corporation 4th Gen Core Processor Integrated Graphics Controller [8086:0416]
+           +-03.0  Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller [8086:0c0c]
+           +-14.0  Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI [8086:8c31]
+           +-19.0  Intel Corporation Ethernet Connection I217-LM [8086:153a]
+           +-1a.0  Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2 [8086:8c2d]
+           +-1b.0  Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller [8086:8c20]
+           +-1c.0-[02]--
+           +-1c.2-[03]----00.0  Intel Corporation Centrino Ultimate-N 6300 [8086:422b]
+           +-1c.4-[04]--
+           +-1c.5-[05]--
+           +-1c.6-[06-0d]--
+           +-1c.7-[0e]----00.0  O2 Micro, Inc. SD/MMC Card Reader Controller [1217:8520]
+           +-1d.0  Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1 [8086:8c26]
+           +-1f.0  Intel Corporation QM87 Express LPC Controller [8086:8c4f]
+           +-1f.2  Intel Corporation 82801 Mobile SATA Controller [RAID mode] [8086:282a]
+           \-1f.3  Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller [8086:8c22]

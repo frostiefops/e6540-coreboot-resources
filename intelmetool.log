@@ -1,0 +1,46 @@
+[31mBad news, you have a `QM87 Express LPC Controller` so you have ME hardware on board and you can't control or disable it, continuing...
+
+[0mMEI found: [8086:8c3a] 8 Series/C220 Series Chipset Family MEI Controller #1
+
+ME Status   : 0x1e000245
+ME Status 2 : 0x62002306
+
+ME: FW Partition Table      : OK
+ME: Bringup Loader Failure  : NO
+ME: Firmware Init Complete  : YES
+ME: Manufacturing Mode      : NO
+ME: Boot Options Present    : NO
+ME: Update In Progress      : NO
+ME: Current Working State   : Normal
+ME: Current Operation State : M0 with UMA
+ME: Current Operation Mode  : Normal
+ME: Error Code              : No Error
+ME: Progress Phase          : Host Communication
+ME: Power Management Event  : Clean global reset
+ME: Progress Phase State    : Host communication established
+
+ME: Extend SHA-256: 0566016c7e81e4328cc2577fa28444eb4b277b6ff49582521e45ebdb0baa42a6
+
+ME: Firmware Version 9.1.3000.45 (code) 9.1.3000.45 (recovery) 9.0.1452.21 (fitc)
+
+ME Capability: Full Network manageability                 : [31mON[0m
+ME Capability: Regular Network manageability              : [32mOFF[0m
+ME Capability: Manageability                              : [31mON[0m
+ME Capability: Small business technology                  : [32mOFF[0m
+ME Capability: Level III manageability                    : [32mOFF[0m
+ME Capability: IntelR Anti-Theft (AT)                     : [31mON[0m
+ME Capability: IntelR Capability Licensing Service (CLS)  : [31mON[0m
+ME Capability: IntelR Power Sharing Technology (MPC)      : [32mOFF[0m
+ME Capability: ICC Over Clocking                          : [31mON[0m
+ME Capability: Protected Audio Video Path (PAVP)          : [31mON[0m
+ME Capability: IPV6                                       : [31mON[0m
+ME Capability: KVM Remote Control (KVM)                   : [31mON[0m
+ME Capability: Outbreak Containment Heuristic (OCH)       : [32mOFF[0m
+ME Capability: Virtual LAN (VLAN)                         : [31mON[0m
+ME Capability: TLS                                        : [31mON[0m
+ME Capability: Wireless LAN (WLAN)                        : [31mON[0m
+[31mBad news, you have a `QM87 Express LPC Controller` so you have ME hardware on board and you can't control or disable it, continuing...
+
+[0m[32mYour system isn't Boot Guard ready.
+You can flash other firmware!
+[0m
