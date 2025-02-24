@@ -12,7 +12,9 @@ I tried running `sudo ./intelvbttool -l -v data.vbt` however this resulted in an
 `vendor.rom` contains the vendor firmware, obtained by using dell-flash-unlock and flashrom. `flashrom-output.log` contains the console output of flashrom.
 
 `inteltool.log` contains the console output of `sudo ./inteltool -a`.
+
 `gpio.h` was generated from `sudo intelp2m -n -file inteltool.log`.
+
 `hda_verb.c` was generated from `./hda-decoder -generate`.
 
 `lspci_tnnv.log` is the console output of `sudo lspci -tnnv`.
